@@ -141,7 +141,8 @@ a img
 .threebyone {
   display: flex;
   flex-direction: row;
-  height: 650px;
+  max-height: 400px;
+  max-width: 900px;
   padding-bottom: 50px;
 
 }
@@ -159,23 +160,27 @@ a img
 .quote{
   display: flex;
   justify-content: center;
-  max-width: 100%;
-  height:600px;
+  max-width: 900px;
+  max-height: 400px;
 }
 .chart {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   flex-shrink: 1;
   justify-content: center;
-  height: 800px;
+  max-height: 400px;
+  max-width: 900px;
   padding-top: -50px;
 }
 .chart2 {
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
   flex-shrink: 1;
   justify-content: center;
-  height: auto;
+  max-height: 600px;
+  max-width: 900px;
   padding-top: -50px;
 }
 .more {
