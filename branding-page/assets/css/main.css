@@ -159,6 +159,8 @@ a img
 }
 .quote{
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
   justify-content: center;
   max-width: 900px;
   max-height: 400px;
