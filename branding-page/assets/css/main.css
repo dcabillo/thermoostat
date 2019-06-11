@@ -147,12 +147,11 @@ a img
 
 }
 .cell{
-  webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  -webkit-flex: 1 1 auto;
-  flex: 1 1 auto;
-
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
   padding: 10px;
   margin: 10px;
   max-width: 33%;
@@ -165,6 +164,7 @@ a img
   max-width: 900px;
   max-height: 400px;
 }
+
 .chart {
   display: flex;
   flex-direction: column;
