@@ -154,6 +154,7 @@ a img
   flex-grow: 1;
   flex-shrink: 1;
   max-width: 33%;
+  object-fit: contain;
   justify-content: center;
 
 }
@@ -199,6 +200,7 @@ a img
 
   justify-content: center;
   max-width: 33%;
+  object-fit: contain;
 }
 .more {
 		-moz-appearance: none;
