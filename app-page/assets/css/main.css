@@ -14,6 +14,10 @@ a img
 {
   text-decoration: none;
 }
+ .module{
+  display: flex;
+  justify-content: center;
+}
 #nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -3220,7 +3224,7 @@ input, select, textarea {
 
 	#header {
 		padding: 5em 5em 1em 5em ;
-		text-align: center;
+		text-align: left;
 	}
 
 		#header h1 {

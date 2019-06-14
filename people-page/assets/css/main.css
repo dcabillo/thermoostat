@@ -125,7 +125,23 @@
 	display: none;
 	color: black;
 }
-
+.profile{
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: flex-end;
+  max-width: 37%;
+  max-height: 35em;
+  align-items: flex-start;
+  margin-top: 0;
+  object-fit: contain;
+}
+.stuff {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
 .fulltext:target p,
 .fulltext:target .less {
 	display: block;
@@ -3121,7 +3137,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+		align-items: flex-start;
 		margin: 0 0 2em 0;
 	}
 

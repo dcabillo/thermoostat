@@ -140,10 +140,10 @@ a img
 }
 .threebyone {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
   flex-grow: 1;
   flex-shrink: 1;
-  max-height: 19em;
+  max-height: 18em;
   max-width: 100%;
 
   justify-content: center;
@@ -189,14 +189,14 @@ a img
 .twobyone {
   display: flex;
   flex-direction: row;
-  max-height: 20em;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-height: 21em;
   max-width: 100%;
   justify-content: center;
 }
 .cell2 {
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
+
   justify-content: center;
   max-width: 33%;
 }
