@@ -141,9 +141,11 @@ a img
 .threebyone {
   display: flex;
   flex-direction: row;
-  max-height: 375px;
-  max-width: 900px;
-  padding-bottom: 50px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-height: 19em;
+  max-width: 100%;
+
   justify-content: center;
 }
 .cell{
@@ -151,15 +153,16 @@ a img
   flex-direction: row;
   flex-grow: 1;
   flex-shrink: 1;
-  justify-content: center;
   max-width: 33%;
+  justify-content: center;
+
 }
 .quote{
   display: flex;
   flex-grow: 1;
   flex-shrink: 1;
   justify-content: center;
-  max-width: 900px;
+  max-width: 100%;
   max-height: 400px;
 }
 
@@ -170,7 +173,7 @@ a img
   flex-shrink: 1;
   justify-content: center;
 
-  max-width: 900px;
+  max-width: 100%;
   padding-top: -50px;
 }
 .chart2 {
@@ -186,8 +189,8 @@ a img
 .twobyone {
   display: flex;
   flex-direction: row;
-  max-height: 350px;
-  max-width: 900px;
+  max-height: 20em;
+  max-width: 100%;
   justify-content: center;
 }
 .cell2 {
