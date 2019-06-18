@@ -130,16 +130,35 @@
   flex-grow: 1;
   flex-shrink: 1;
   justify-content: flex-end;
-  max-width: 37%;
-  max-height: 35em;
-  align-items: flex-start;
+  max-width: 21.3%;
+  padding-left: 2em;
+  max-height: 33em;
   margin-top: 0;
   object-fit: contain;
+  padding-right: -5%;
+}
+.cell {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  max-width: 22%;
 }
 .stuff {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
   flex-grow: 1;
+  max-width: 100%;
+  flex-shrink: 1;
+}
+.stuff2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-grow: 1;
+  max-width: 100%;
   flex-shrink: 1;
 }
 .fulltext:target p,
