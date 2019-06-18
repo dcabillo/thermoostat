@@ -142,6 +142,7 @@ a img
 .fulltext:target .more {
 	display: none;
 }
+
 .fourbyone{
   display: flex;
   flex-flow: row wrap;
@@ -150,6 +151,17 @@ a img
   justify-content: space-between;
   max-width: 100%;
   align-items: flex-start;
+
+}
+.cell2{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 47%;
+  object-fit: contain;
+  justify-content: center;
+
 
 }
 .cell3{
@@ -165,7 +177,7 @@ a img
 }
 .flyer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 100%;
   padding-bottom: 2em;
 
@@ -180,7 +192,7 @@ a img
   padding-bottom: 4em;
 }
 .boom {
-  text-decoration: underline;
+  color: #1295d8;
 }
 .fangraph {
   display: flex;

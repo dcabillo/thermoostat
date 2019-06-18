@@ -150,6 +150,26 @@ a img
   max-width: 100%;
 
 }
+.threebyone {display: flex;
+flex-flow: row;
+flex-grow: 1;
+flex-shrink: 1;
+max-width: 100%;
+padding-bottom: 5%;
+justify-content: space-between;
+align-items: flex-start;
+}
+.cell3 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 30%;
+  object-fit: contain;
+  justify-content: center;
+
+}
+
 .fulltext:target p,
 .fulltext:target .less {
 	display: block;
@@ -157,6 +177,17 @@ a img
 
 .fulltext:target .more {
 	display: none;
+}
+
+#buttspace {
+  display: none;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
 }
 
 .more {
@@ -2037,6 +2068,20 @@ input, select, textarea {
 		text-decoration: none;
 		white-space: nowrap;
 	}
+
+  .button-shown {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+
+
+  .button-hidden {
+    display: none;
+  }
 
 		input[type="submit"].icon,
 		input[type="reset"].icon,

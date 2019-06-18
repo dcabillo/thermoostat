@@ -121,3 +121,22 @@
 		});
 
 })(jQuery);
+
+function showbuttspace() {
+	let buttspace = document.getElementById("buttspace");
+	buttspace.style.display = "flex";
+	toggleButtons();
+}
+
+function hidebuttspace() {
+	let buttspace = document.getElementById("buttspace");
+	buttspace.style.display = "none";
+	toggleButtons();
+}
+
+function toggleButtons() {
+	let hideButton = document.querySelector(".button.button-hidden");
+	let showButton = document.querySelector(".button.button-shown");
+	hideButton.className = "button button-shown"; // add the hide buttspace button
+	showButton.className = "button button-hidden"; // remove the show buttspace button
+}
