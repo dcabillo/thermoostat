@@ -51,7 +51,10 @@
 											<h2>Introduction</h2>
 										</header>
 										<p>The general applications UC Davis has found for PTS data are summarized in the table below. The following sections provide more detail and examples of each application. If you think of another way to use the data, please let us know and we will add it to the list.</p>
-										<img src="images/tempTable.png" style="max-width: 97%"/>
+										<div class="fourbyone"> <img class="cell3" src="images/Application_Intro_IconSet_Final_1.png" alt=""/>
+											<img class="cell3" src="images/Application_Intro_IconSet_Final_2.png" alt=""/>
+											<img class="cell3" src="images/Application_Intro_IconSet_Final_3.png" alt=""/>
+										<img class="cell3" src="images/Application_Intro_IconSet_Final_4.png" alt=""/></div>
 										<!-- <ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul>
@@ -87,7 +90,7 @@
 									<p>All UC campuses likely have a long list of projects needed to improve building performance, many of which require major capital investment. PTS data can be used to help prioritize these needs for long-term planning of retroﬁts.</p>
 
 									<p><u>UCD Example of Project Sparked by PTS Data</u><br>
-									Wellman Hall is a classroom building on campus that receives an average of 400 votes every year, up to 30% more comfort feedback than is received by other classroom buildings on campus. From January 2015 - August 2016, there were 24 work orders initiated for Wellman through Facilities Management, with solutions totaling over $9,000. We used TherMOOstat feedback and performed an <a href="https://drive.google.com/file/d/1EuwDFKFrbDJCt1HaJKyVAh_dkvydFq7f/view?usp=sharing">investigation into 32 classrooms</a> in Wellman. We attempted to address issues by adjusting the Siemens (BAS) programming for the HVAC system, but this was not effective due to poor location of sensors controlling the HVAC system. We used our research and TherMOOstat feedback to create <a href="https://drive.google.com/file/d/16xatr0lfip-ATTsiS5aKI2-8gMeX84g8/view?usp=sharing">a report in favor of an energy retrofit.</a> In the Summer of 2017 a project was undertaken to reinstall the sensors that were throwing off the HVAC programming. We are now using TherMOOstat feedback to continuously finetune the HVAC programming.
+									Wellman Hall is a classroom building on campus that receives an average of 400 votes every year, up to 30% more comfort feedback than is received by other classroom buildings on campus. From January 2015 - August 2016, there were 24 work orders initiated for Wellman through Facilities Management, with solutions totaling over $9,000. We used TherMOOstat feedback and performed an <a href="images/WellmanFloorPlans.pdf" download="Wellman_Floor_Plan">investigation into 32 classrooms</a> in Wellman. We attempted to address issues by adjusting the Siemens (BAS) programming for the HVAC system, but this was not effective due to poor location of sensors controlling the HVAC system. We used our research and TherMOOstat feedback to create <a href="images/WellmanSummarySheet.pdf" download="Wellman_Summary_Sheet">a report in favor of an energy retrofit.</a> In the Summer of 2017 a project was undertaken to reinstall the sensors that were throwing off the HVAC programming. We are now using TherMOOstat feedback to continuously finetune the HVAC programming.
 									</p>
 							</section>
 						</div>
@@ -102,10 +105,7 @@
 									An energy efficiency project in a laboratory building on campus began with a test to find any leaks between the hot and cold water systems. The chilled water was turned off for one week in January to pinpoint issues and/or leaks. TherMOOstat was advertised via flyers in the building during this time. In that week, we received 15 TherMOOstat votes: 7 hot, 5 warm, 2 perfect, and 1 chilly. TherMOOstat was the main point of contact for building occupants to reach out and give us feedback. Only two work orders were also submitted during this period by people who didn’t know about TherMOOstat.
 									 </p>
 
-								<span class="image">
-									<img src="images/flier.png" alt="Flier Image" style="max-width: 100%"/>
-								</span>
-
+								<div class="flyer"><a href="images/BuildingProjectInMeyer.pdf" class="button" download="Meyer_Project">View Flyer</a></div>
 								<p>A second example is a project called Small Workplace Air and Remote Monitoring (SWARM), which aims to increase smaller buildings' visibility and be a part of energy efficiency initiatives on campus. The project installs WiFi enabled thermostats in these smaller buildings, enabling Facilities to remotely see the temperature and program the thermostats. After the thermostats are installed, TherMOOstat is advertised to occupants via flyers in the buildings. Facilities uses TherMOOstat to continuously monitor SWARM buildings and to keep in touch with the occupants after the installation of the new thermostats. </p>
 							</section>
 						</div>
@@ -116,20 +116,13 @@
 								</header>
 							<p>There are also opportunities to streamline parts of the PTS data triage process and give occupants even more control by integrating PTS with the BAS. Algorithms can be programmed to automatically adjust setpoints based on incoming comfort data. This is a huge undertaking. UC Merced researchers experimented with this with their program, Thermovote. We’ve also experimented with it in our Energy Conservation Office building. These experiments have so far been limited to single buildings because of the complications of working with different types of building automation systems and equipment. Another example of automating the feedback loop is by enabling control of large fans. UCD has done this and recommends the following process.<br></p>
 							<p>
-							<ol style="text-align: left;">
-							<li>Scope out rooms to target by reviewing comfort votes. Good candidates include rooms with PTS comments that indicate stuffiness or airflow issues.</li>
-							<li>Determine the size and location of a fan based on what will work for the chosen room, e.g., three residential sized fans versus one 8’ commercial fan.</li>
-							<li>Obtain approvals for the fan (this is likely to be different for each campus). </li>
-							<li>Scope necessary hardware to connect PTS to the speed of the ceiling fan. At UC Davis we use raspberry pi and labjack hardware. </li>
-							<li>Coordinate fan install with Facilities and necessary coding to connect PTS to the fan with computer science students. </li>
-							</ol>
-								</p>
+							<div class="fan"><img class="fangraph" src="images/Applications_PTS_Final-01.png" alt=""/></div>
 
 							<p>
 								<u>UCD Example of Automated PTS Fan Control </u><br>
-								In a classroom on the UC Davis campus, the Facilities Department installed two 8 foot high volumn low speed ceiling fans. These fans operate on a range of 0-10 volts, determined by TherMOOstat votes. This is our first pilot to improve comfort and save energy, and automate the feedback loop. With the help of two computer science interns, and a graduate student researcher, we have connected TherMOOstat votes to control the speed of the ceiling fans in real time. Since the installation of the ceiling fans, engagement with TherMOOstat has grown from 2-5 votes per month to as many as 70 votes/month (Figure 1: votes).
-
-								Below you can see a simplified version of the algorithm we’ve used to control the fan (Figure 2: infographic). If there are no TherMOOstat votes, the fan speed is at default, determined by outside air temperature. Hot votes increase the speed of the fan, while cold votes decrease the speed of the fan (the fan does not reverse direction). If hot and cold votes are received simultaneously, our algorithm determines how this will affect the speed of the fan.
+								In a classroom on the UC Davis campus, the Facilities Department installed two 8 foot high volumn low speed ceiling fans. These fans operate on a range of 0-10 volts, determined by TherMOOstat votes. This is our first pilot to improve comfort and save energy, and automate the feedback loop. With the help of two computer science interns, and a graduate student researcher, we have connected TherMOOstat votes to control the speed of the ceiling fans in real time. Since the installation of the ceiling fans, engagement with TherMOOstat has grown from 2-5 votes per month to as many as 70 votes/month.
+								<div class="fan"><img class="fangraph" src="images/votes.png" alt=""/></div>
+								Below you can see a simplified version of the algorithm we’ve used to control the fan: <br><br> <div class="fan"><img class="fangraph" src="images/infographic.png" alt=""/></div> If there are no TherMOOstat votes, the fan speed is at default, determined by outside air temperature. Hot votes increase the speed of the fan, while cold votes decrease the speed of the fan (the fan does not reverse direction). If hot and cold votes are received simultaneously, our algorithm determines how this will affect the speed of the fan.
 
 								</p>
 
