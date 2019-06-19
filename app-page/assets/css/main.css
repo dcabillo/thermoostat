@@ -139,6 +139,12 @@ a img
 	display: block;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .fulltext:target .more {
 	display: none;
 }

@@ -143,6 +143,12 @@ a img
  justify-content: center;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .threebyone {
   display: flex;
   flex-flow: row;
