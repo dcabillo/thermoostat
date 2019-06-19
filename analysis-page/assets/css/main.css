@@ -150,6 +150,12 @@ a img
   max-width: 100%;
 
 }
+.graph2 {
+  display: flex;
+  object-fit: contain;
+  max-width: 80%;
+
+}
 .threebyone {display: flex;
 flex-flow: row;
 flex-grow: 1;
