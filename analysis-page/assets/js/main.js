@@ -134,9 +134,81 @@ function hidebuttspace() {
 	toggleButtons();
 }
 
+function showbuttspace1() {
+	let buttspace1 = document.getElementById("buttspace1");
+	buttspace1.style.display = "flex";
+	toggleButtons1();
+}
+
+function hidebuttspace1() {
+	let buttspace1 = document.getElementById("buttspace1");
+	buttspace1.style.display = "none";
+	toggleButtons1();
+}
+function showbuttspace2() {
+	let buttspace2 = document.getElementById("buttspace2");
+	buttspace2.style.display = "flex";
+	toggleButtons2();
+}
+
+function hidebuttspace2() {
+	let buttspace2 = document.getElementById("buttspace2");
+	buttspace2.style.display = "none";
+	toggleButtons2();
+}
+
+function showbuttspace3() {
+	let buttspace3 = document.getElementById("buttspace3");
+	buttspace3.style.display = "flex";
+	toggleButtons3();
+}
+
+function hidebuttspace3() {
+	let buttspace3 = document.getElementById("buttspace3");
+	buttspace3.style.display = "none";
+	toggleButtons3();
+}
+
+function showbuttspace4() {
+	let buttspace4 = document.getElementById("buttspace4");
+	buttspace4.style.display = "flex";
+	toggleButtons4();
+}
+
+function hidebuttspace4() {
+	let buttspace4 = document.getElementById("buttspace4");
+	buttspace4.style.display = "none";
+	toggleButtons4();
+}
+
 function toggleButtons() {
 	let hideButton = document.querySelector(".button.button-hidden");
 	let showButton = document.querySelector(".button.button-shown");
 	hideButton.className = "button button-shown"; // add the hide buttspace button
 	showButton.className = "button button-hidden"; // remove the show buttspace button
+}
+
+function toggleButtons1() {
+	let hideButton1 = document.querySelector(".button.button-hidden1");
+	let showButton1 = document.querySelector(".button.button-shown1");
+	hideButton1.className = "button button-shown1"; // add the hide buttspace button
+	showButton1.className = "button button-hidden1"; // remove the show buttspace button
+}
+function toggleButtons2() {
+	let hideButton2 = document.querySelector(".button.button-hidden2");
+	let showButton2 = document.querySelector(".button.button-shown2");
+	hideButton2.className = "button button-shown2"; // add the hide buttspace button
+	showButton2.className = "button button-hidden2"; // remove the show buttspace button
+}
+function toggleButtons3() {
+	let hideButton3 = document.querySelector(".button.button-hidden3");
+	let showButton3 = document.querySelector(".button.button-shown3");
+	hideButton3.className = "button button-shown3"; // add the hide buttspace button
+	showButton3.className = "button button-hidden3"; // remove the show buttspace button
+}
+function toggleButtons4() {
+	let hideButton4 = document.querySelector(".button.button-hidden4");
+	let showButton4 = document.querySelector(".button.button-shown4");
+	hideButton4.className = "button button-shown4"; // add the hide buttspace button
+	showButton4.className = "button button-hidden4"; // remove the show buttspace button
 }
