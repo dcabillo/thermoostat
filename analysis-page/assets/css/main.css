@@ -170,7 +170,7 @@ align-items: flex-start;
   flex-direction: row;
   flex-grow: 1;
   flex-shrink: 1;
-  max-width: 30%;
+  max-width: 26%;
   object-fit: contain;
   justify-content: center;
 
@@ -2113,6 +2113,9 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+    font-size: 1em;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+
 	}
 
   .button-shown {
