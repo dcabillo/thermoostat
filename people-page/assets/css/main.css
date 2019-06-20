@@ -3762,6 +3762,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+
 	}
 
 		#footer > * {
@@ -3773,6 +3774,7 @@ input, select, textarea {
 			width: 100%;
 			font-size: 0.8em;
 			text-align: center;
+      color: #565656;
 		}
 
 		@media screen and (max-width: 1280px) {
