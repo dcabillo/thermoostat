@@ -210,6 +210,12 @@ a img
   justify-content: center;
   max-width: 100%;
   max-height: 22em;
+  margin-top:-3em;
+
+
+}
+.boom {
+  color:#1295d8;
 }
 
 .chart {
