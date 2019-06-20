@@ -3789,9 +3789,10 @@ input, select, textarea {
 
 		#footer .copyright {
 			width: 100%;
-			margin: 2.5em 0 2em 0;
+			margin: 2.5em 0 1em 0;
 			font-size: 0.8em;
 			text-align: center;
+      color: #565656;
 		}
 
 		@media screen and (max-width: 1280px) {
