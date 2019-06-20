@@ -112,7 +112,7 @@
 									<div id="buttspace"><img class="graph1" src="images/Triage_Process_Scenario1-01.png" alt=""/></div>
 									<button class="button button-hidden" onclick="hidebuttspace()"><strong>Hide Scenario 1 Workflow</strong></button>
 
-									<br><h3>SCENARIO 2: Equipment Issue: Failed Room Temperature Sensors</h3>
+									<br><br><br><h3>SCENARIO 2: Equipment Issue: Failed Room Temperature Sensors</h3>
 									<p>In one room, we found an issue with the room temperature sensors.
 										Notes from John the Analyst: “2 failed room sensors caused the supply air setpoint on AHU-1 (air handler 1) to remain at 75°F and the Variable Air Volume (VAV) boxes to stay in heating mode.  Supply air setpoint (SAS) is dependent on room temp average and failed sensors caused the room temp average to be set at 38°F. Supply air setpoint has been operated to 55°F until sensors can be repaired.”
 									</p>
@@ -120,9 +120,13 @@
 									<div id="buttspace1"><img class="graph1" src="images/Triage_Process_Scenario2-01.png" alt=""/></div>
 									<button class="button button-hidden1" onclick="hidebuttspace1()">Hide Scenario 2 Workflow</button>
 
-									<br><h3>SCENARIO 3: High Volume Feedback Leads to Identifying an Issue</h3>
+									<br><br><br><h3>SCENARIO 3: High Volume Feedback Leads to Identifying an Issue</h3>
 									<p>29 hot/warm votes came in from one room that led to our triage team identifying temperature and airflow issues. After the issue was fixed in the BMS we sent an email to everyone that submitted feedback to let them know their votes helped us find and fix a temperature issuel.
-										<br><br>Button to bring up the email “Click to see the email written to our PTS users.”
+									</p>
+										<div  class="button-shown5" onclick="showbuttspace5()">Click to see the email written to our PTS users
+										<i class="right"></i><i class="right"></i></div>
+										<div id="buttspace5"><p>
+
 										<br><br>“Good afternoon,
 										<br><br>Thank you SO MUCH for using TherMOOstat. We’ve gotten a lot of feedback from room 2363 of Academic Surge today, and we wanted to let you know that we’ve read each and every one of your submissions. We also know that it was 78°F in room 2363 today! Yikes!!”
 										<br><br>Here’s what was going on:
@@ -131,22 +135,25 @@
 										<br><br>Have a great weekend.
 										<br>Cheers,
 										<br>Kiernan
-									</p>
+									</p></div>
+									<div class="button-hidden5" onclick="hidebuttspace5()"><i class=left></i><i class="left"></i>Hide the email written to our PTS users</div>
+
+									<br><br>
 									<button class="button button-shown2" onclick="showbuttspace2()">View Scenario 3 Workflow</button>
 									<div id="buttspace2"><img class="graph1" src="images/Triage_Process_Scenario3-01.png" alt=""/></div>
 									<button class="button button-hidden2" onclick="hidebuttspace2()">Hide Scenario 3 Workflow</button>
 
-									<br><h3>SCENARIO 4: High Volume Feedback Leads to Communication with Users</h3>
+									<br><br><br><h3>SCENARIO 4: High Volume Feedback Leads to Communication with Users</h3>
 									<p>After verifying that the room and building are visible in the BMS, we checked that the room temperature and airflow inside the room was within the setpoints. We received many more votes, so we conducted a site visit and left a data logger in the room for a week. This showed that the temperature ranged on average from 71 to 74 degrees Fahrenheit, so there were no issues in the room. We shared these results with users, and gave them the opportunity to learn more from our website.
 									</p>
 									<button class="button button-shown3" onclick="showbuttspace3()">View Scenario 4 Workflow</button>
 									<div id="buttspace3"><img class="graph1" src="images/Triage_Process_Scenario4-01.png" alt=""/></div>
 									<button class="button button-hidden3" onclick="hidebuttspace3()">Hide Scenario 4 Workflow</button>
 
-									<br><h3>SCENARIO 5: Consistent Low Volume Feedback about Known Issue</h3>
+									<br><br><br><h3>SCENARIO 5: Consistent Low Volume Feedback about Known Issue</h3>
 									<p>When we got 5 hot votes in the same room, within two days and at the same time of day and from 5 different people, we sent out an email. Even though the room was within its temperature deadband, we wanted to explain how the building works and that we know it has an HVAC system that’s difficult to control for comfort.  We get constant feedback from this building, and have it on our list for a potential ceiling fan project to improve the comfort. We watch the incoming comfort votes for this room to see trends in discomfort.
 									</p>
-									<button class="button button-shown4" onclick="showbuttspace4()">View Scenario 5 Workflow</button>
+									<button class="button button-shown4" onclick="showbuttspace4()">View Scenario 5 Workflow</button><br><br>
 									<div id="buttspace4"><img class="graph1" src="images/Triage_Process_Scenario5-01.png" alt=""/></div>
 									<button class="button button-hidden4" onclick="hidebuttspace4()">Hide Scenario 5 Workflow</button>
 
