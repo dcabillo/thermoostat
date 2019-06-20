@@ -253,7 +253,19 @@ align-items: flex-start;
   padding: 1.5em;
   padding-bottom: 1em;
 }
-
+#buttspace6 {
+  display: none;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #F1F2F2;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  padding-bottom: 1em;
+}
 .more {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2163,6 +2175,7 @@ input, select, textarea {
     max-width: 100%;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 3.5em;
   }
   .button-shown4 {
     display: flex;
@@ -2172,6 +2185,17 @@ input, select, textarea {
     align-items: flex-start;
   }
   .button-shown5 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #1295d8;
+    cursor: pointer;
+    margin-top: -1em;
+    align-items: center;
+  }
+  .button-shown6 {
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -2203,6 +2227,9 @@ input, select, textarea {
   .button-shown5:hover {
     color: blue;
   }
+  .button-shown6:hover {
+    color: blue;
+  }
   .button-hidden {
     display: none;
   }
@@ -2219,6 +2246,9 @@ input, select, textarea {
     display: none;
   }
   .button-hidden5 {
+    display: none;
+  }
+  .button-hidden6 {
     display: none;
   }
 		input[type="submit"].icon,

@@ -191,6 +191,17 @@ function hidebuttspace5() {
 	buttspace5.style.display = "none";
 	toggleButtons5();
 }
+function showbuttspace6() {
+	let buttspace6 = document.getElementById("buttspace6");
+	buttspace6.style.display = "flex";
+	toggleButtons6();
+}
+
+function hidebuttspace6() {
+	let buttspace6 = document.getElementById("buttspace6");
+	buttspace6.style.display = "none";
+	toggleButtons6();
+}
 
 function toggleButtons() {
 	let hideButton = document.querySelector(".button.button-hidden");
@@ -228,4 +239,10 @@ function toggleButtons5() {
 	let showButton5 = document.querySelector(".button-shown5");
 	hideButton5.className = "button-shown5"; // add the hide buttspace button
 	showButton5.className = "button-hidden5"; // remove the show buttspace button
+}
+function toggleButtons6() {
+	let hideButton6 = document.querySelector(".button-hidden6");
+	let showButton6 = document.querySelector(".button-shown6");
+	hideButton6.className = "button-shown6"; // add the hide buttspace button
+	showButton6.className = "button-hidden6"; // remove the show buttspace button
 }

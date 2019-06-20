@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Triage & Analysis</title>
+		<title>Triage</title>
 		<link rel="icon" href="images/toplogouc.png"/>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -38,7 +38,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt" style="padding-bottom: 3%; margin-bottom: 1%; padding-top: 3%;">
-						<h1 class="module"> Triage & Analysis</h1>
+						<h1 class="module"> Triage</h1>
 						<p>In this module, we hope to guide you through defining your team’s process for triaging incoming thermal comfort feedback submissions. Goals for data triage are to quickly identify any major HVAC operation issues, store data efficiently for later analysis, and communicate back to users as needed.</p>
 					</header>
 				</div>
@@ -145,6 +145,16 @@
 									<br><br><br><h3><b>SCENARIO 4: High Volume Feedback Leads to Communication with Users</b></h3>
 									<p>After verifying that the room and building are visible in the BMS, we checked that the room temperature and airflow inside the room was within the setpoints. We received many more votes, so we conducted a site visit and left a data logger in the room for a week. This showed that the temperature ranged on average from 71 to 74 degrees Fahrenheit, so there were no issues in the room. We shared these results with users, and gave them the opportunity to learn more from our website.
 									</p>
+									<div  class="button-shown6" onclick="showbuttspace6()">Click to see the email written to our PTS users >></div>
+									<div id="buttspace6"><p>
+
+									<br>Good afternoon,
+									<br><br>First and foremost, I would like to thank you very much for submitting feedback to TherMOOstat! I want to let you know that we do look at each and every entry and your information helps us to find potential problems on campus. In regards to Storer 1322, I have been tracking temperatures in that lecture hall for a week now and here is what I have found: temperatures range on average from 71 degrees to 74 degrees Fahrenheit. That is a little warm, but please keep in mind that we gain huge energy savings by not heating up or cooling down rooms unnecessarily! If you wish to learn more please visit our website at: https://www.comfort.ucdavis.edu/
+									<br><br>Cheers,
+									<br>Kiernan
+								</p></div>
+								<div class="button-hidden6" onclick="hidebuttspace6()"> << Hide the email written to our PTS users</div>
+
 									<button class="button button-shown3" onclick="showbuttspace3()">View Scenario 4 Workflow</button>
 									<div id="buttspace3"><img class="graph1" src="images/Triage_Process_Scenario4-01.png" alt=""/></div>
 									<button class="button button-hidden3" onclick="hidebuttspace3()">Hide Scenario 4 Workflow</button>
