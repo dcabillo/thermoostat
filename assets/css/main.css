@@ -2812,14 +2812,15 @@ input, select, textarea {
 
 	#header {
 		padding: 4em 0 0.1em 0 ;
+		font-size: 1.1em:
 	}
 
 		#header .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
-			letter-spacing: 0.35em;
+			font-weight: 1000;
+			letter-spacing: 0.15em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -2838,6 +2839,7 @@ input, select, textarea {
 
 			#header .logo .title:hover {
 				color: #585858;
+
 			}
 
 			#header .logo .symbol {
