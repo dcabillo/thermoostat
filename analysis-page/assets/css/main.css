@@ -3928,6 +3928,7 @@ input, select, textarea {
 			width: 100%;
 			font-size: 0.8em;
 			text-align: center;
+      color: #565656;
 		}
 
 		@media screen and (max-width: 1280px) {
