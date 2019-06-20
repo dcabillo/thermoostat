@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			/* color: #f2849e !important; 
+			/* color: #f2849e !important;
 			hover color change */
 		}
 
@@ -2833,7 +2833,7 @@ input, select, textarea {
 
 			.a:hover {
 				color: #585858;
-				
+
 			}
 
 			#header .logo .title:hover {
@@ -3157,7 +3157,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 3em 0 0 0 ;
-		background-color: #f6f6f6;
+		background-color: white;
 	}
 
 		#footer > .inner {
@@ -3192,7 +3192,7 @@ input, select, textarea {
 			#footer > .inner .copyright {
 				width: 100%;
 				padding: 0;
-				margin-top: 2em;
+				margin-top: 1em;
 				list-style: none;
 				font-size: 0.8em;
 				color: rgba(88, 88, 88, 0.5);
@@ -3277,7 +3277,7 @@ input, select, textarea {
 					}
 
 					#footer > .inner .copyright {
-						margin-top: 3em;
+						margin-top: 1em;
 					}
 
 		}
@@ -3285,7 +3285,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#footer > .inner .copyright {
-				margin-top: 3em;
+				margin-top: 1em;
 			}
 
 				#footer > .inner .copyright li {
