@@ -276,7 +276,7 @@ a img
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 48%;
+    max-width: 65%;
     object-fit: contain;
     justify-content: center;
     padding-bottom: 1em;
