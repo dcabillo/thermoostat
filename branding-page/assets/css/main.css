@@ -138,6 +138,8 @@ a img
 .fulltext:target .more {
 	display: none;
 }
+
+
 .module{
  display: flex;
  justify-content: center;
@@ -182,6 +184,16 @@ a img
   padding-bottom: 5em;
 
 
+
+}
+.cell4{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 33%;
+  object-fit: contain;
+  justify-content: center;
 
 }
 .cell{
@@ -247,7 +259,29 @@ a img
   max-width: 100%;
   justify-content: center;
 }
-
+@media screen and  (max-device-width : 736px){
+  .threebyone {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-height: 100em;
+    max-width: 100%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  .cell4 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 48%;
+    object-fit: contain;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+}
 .more {
 		-moz-appearance: none;
 		-webkit-appearance: none;
