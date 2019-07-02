@@ -121,3 +121,20 @@
 		});
 
 })(jQuery);
+function showemail() {
+	let email = document.getElementById("email");
+	email.style.display = "block";
+	toggleButtons();
+}
+
+function hideemail() {
+	let email = document.getElementById("email");
+	email.style.display = "none";
+	toggleButtons();
+}
+function toggleButtons() {
+	let hideButton = document.querySelector(".button-hidden");
+	let showButton = document.querySelector(".button-shown");
+	hideButton.className = "button-shown"; // add the hide email button
+	showButton.className = "button-hidden"; // remove the show email button
+}

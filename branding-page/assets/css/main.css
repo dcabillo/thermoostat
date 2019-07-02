@@ -229,6 +229,15 @@ a img
 .boom {
   color:#1295d8;
 }
+.cen {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  padding-bottom: -2em;
+}
 
 .chart {
   display: flex;
@@ -259,7 +268,32 @@ a img
   max-width: 100%;
   justify-content: center;
 }
-@media screen and  (max-device-width : 736px){
+.button-shown {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #1295d8;
+  cursor: pointer;
+  margin-top: 1em;
+  align-items: center;
+}
+.button-shown:hover {
+  color: blue
+}
+.button-hidden {
+  display: none
+}
+
+#email {
+  display: none;
+  background-color: #F1F2F2;
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  padding-bottom: 1em;
+}
+@media screen and  (max-device-width : 619px){
   .threebyone {
     display: flex;
     flex-flow: column;
@@ -276,11 +310,14 @@ a img
     flex-direction: column;
     flex-grow: 1;
     flex-shrink: 1;
-    max-width: 65%;
+    max-width: 80%;
     object-fit: contain;
     justify-content: center;
     padding-bottom: 1em;
   }
+
+
+
 }
 .more {
 		-moz-appearance: none;
