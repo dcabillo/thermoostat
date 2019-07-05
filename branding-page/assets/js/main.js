@@ -127,14 +127,31 @@ function showemail() {
 	toggleButtons();
 }
 
+function showchart() {
+	let chart = document.getElementById("chart3");
+	chart.style.display = "flex";
+	toggleButtons();
+}
+function hidechart() {
+	let chart = document.getElementById("chart3");
+	chart.style.display = "none";
+	toggleButtons();
+}
 function hideemail() {
 	let email = document.getElementById("email");
 	email.style.display = "none";
 	toggleButtons();
 }
+
 function toggleButtons() {
 	let hideButton = document.querySelector(".button-hidden");
 	let showButton = document.querySelector(".button-shown");
 	hideButton.className = "button-shown"; // add the hide email button
 	showButton.className = "button-hidden"; // remove the show email button
+}
+function toggleButtons() {
+	let hideButton1 = document.querySelector(".button-hidden1");
+	let showButton1 = document.querySelector(".button-shown1");
+	hideButton1.className = "button-shown1"; // add the hide email button
+	showButton1.className = "button-hidden1"; // remove the show email button
 }
