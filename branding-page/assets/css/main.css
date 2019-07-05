@@ -422,8 +422,11 @@ a img
 
 
   }
-  p, h1, h2, h3, strong, ol, ul {
+  p, h1, h3, strong, ol, ul {
     text-align: left;
+  }
+  .module {
+    padding-bottom: .23em;
   }
 }
 .more {
