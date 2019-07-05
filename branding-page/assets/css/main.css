@@ -402,7 +402,7 @@ a img
     flex-shrink: 1;
     justify-content: center;
     align-items: flex-start;
-    max-width: 110%;
+    max-width: 100%;
 
 
   }
@@ -411,7 +411,7 @@ a img
   }
   .quotemobile{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: center;
