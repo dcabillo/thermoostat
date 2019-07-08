@@ -178,6 +178,187 @@
   max-width: 100%;
   flex-shrink: 1;
 }
+
+@media screen and  (max-device-width : 619px){
+  .stuff {
+    display: flex;
+    flex-direction:  column;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    max-width: 100%;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .stuff2 {
+    display: flex;
+    flex-direction:  column;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    max-width: 100%;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .txtbox {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+    object-fit: contain;
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  .nopad {
+    margin-bottom: 1em;
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .chart4 {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    max-width: 100%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80%;
+    object-fit: contain;
+    justify-content: center;
+
+    padding-left: 0em;
+
+  }
+  .cell {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80%;
+    object-fit: contain;
+    justify-content: center;
+    margin-bottom: 1em;
+    padding-left: 0em;
+
+  }
+  .twobyone {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-height: 60em;
+
+  }
+  .cell2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80%;
+    object-fit: contain;
+    justify-content: center;
+    padding-bottom: 1em;
+    align-items: center;
+
+  }
+  .communication {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+  }
+  .cell3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80%;
+    object-fit: contain;
+    justify-content: center;
+    padding-bottom: 2em;
+    align-items: center;
+  }
+
+  .chart {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+
+
+  }
+  .quote{
+    display: none;
+  }
+  .quotemobile{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    padding-bottom: 1em;
+
+
+
+  }
+  p, h1, h3, strong, ol, ul {
+    text-align: left;
+  }
+  .module {
+    padding-bottom: .23em;
+  }
+  .mobiletext {
+    display: inline-block;
+  }
+  .cen h3 {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .cen {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: left;
+    justify-content: center;
+
+
+  }
+  .cen p {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
+  }
+}
+
+
+
 .fulltext:target p,
 .fulltext:target .less {
 	display: block;
