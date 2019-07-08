@@ -186,6 +186,9 @@ a img
 
 
 }
+.mobiletext {
+  display: none;
+}
 .cell4{
   display: flex;
   flex-direction: row;
@@ -351,6 +354,7 @@ a img
     padding-bottom: 1em;
 
   }
+
   .twobyone {
     display: flex;
     flex-direction: column;
@@ -359,7 +363,7 @@ a img
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    max-height: 50em;
+    max-height: 60em;
 
   }
   .cell2 {
@@ -416,8 +420,8 @@ a img
     flex-shrink: 1;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
-    margin-left: 2em;
+    max-width: 65%;
+    padding-bottom: 1em;
 
 
 
@@ -427,6 +431,30 @@ a img
   }
   .module {
     padding-bottom: .23em;
+  }
+  .mobiletext {
+    display: inline-block;
+  }
+  .cen h3 {
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .cen {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: left;
+    justify-content: center;
+
+
+  }
+  .cen p {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: left;
   }
 }
 .more {
